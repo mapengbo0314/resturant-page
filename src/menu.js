@@ -25,9 +25,9 @@ const createMenuPage = () => {
     menu.setAttribute('class', 'pageTabs');
     menu.innerHTML = "Check out our menu <br>";
     let image = document.createElement('img');
-    image.src = "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3010583704,3158884801&fm=26&gp=0.jpg"
+    image.src = "https://github.com/mapengbo0314/resturant-page/blob/master/src/chinesefood1.jpg?raw=true"
     let image1 = document.createElement('img');
-    image1.src = "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1297736085,1155342939&fm=26&gp=0.jpg"
+    image1.src = "https://github.com/mapengbo0314/resturant-page/blob/master/src/chinesefood2.jpg?raw=true"
     menu.appendChild(image);
     menu.appendChild(image1);
     return menu;
